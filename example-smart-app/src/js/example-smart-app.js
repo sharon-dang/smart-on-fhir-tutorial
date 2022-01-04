@@ -1,5 +1,4 @@
 (function(window){
-  debugger
   window.extractData = function() {
     var ret = $.Deferred();
 
