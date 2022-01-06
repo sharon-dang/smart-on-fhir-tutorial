@@ -16968,6 +16968,7 @@ function completeTokenFlow(hash){
 }
 
 function completeCodeFlow(params){
+  debugger
   if (!params){
     params = {
       code: urlParam('code'),
