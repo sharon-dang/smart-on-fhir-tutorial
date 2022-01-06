@@ -28,7 +28,8 @@
       console.log("authorizing")
       FHIR.oauth2.authorize({
         'client_id': 'cbc624c2-7c8d-4a89-a6c1-7205a74dc000',
-        'scope':  'patient/Patient.read patient/Observation.read launch online_access openid profile'
+        'scope':  'patient/Patient.read patient/Observation.read launch online_access openid profile',
+        'redirect_uri': 'https://avhana.ngrok.io/'
       });
       console.log("authorized")
     </script>
